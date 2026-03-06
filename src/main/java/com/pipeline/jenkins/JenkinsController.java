@@ -16,5 +16,8 @@ public class JenkinsController {
      //added comment for maven
     // waste
     //test3
-
+    @GetMapping("hello")
+    public  String hello(){
+        return "hello Bharath.i am jenkins how can i help you";
+    }
 }
